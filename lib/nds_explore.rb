@@ -9,7 +9,7 @@ require 'directors_database'
 
 def pretty_print_nds(nds)
  # binding.pry 
-  pp(nds[0][:movies][0][0]) 
+  pp(nds[0][:movies][0][:world_wide_gross]) 
 
 end
 
